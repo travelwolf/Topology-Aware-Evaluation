@@ -36,7 +36,7 @@ Generate a dataset and manifest from the repository root:
 python -m holecounting_datasets_build.dataset_builder \
   --output-root data/hole_counting_5000 \
   --num-models 5000 \
-  --seed 42 \
+  --seed 20260608 \
   --export-step \
   --no-export-point \
   --no-export-image \
@@ -44,7 +44,7 @@ python -m holecounting_datasets_build.dataset_builder \
   --no-export-bin
 ```
 
-The generator assigns labels from the verified final B-rep geometry. Generation metadata and rejection reasons are retained in the manifest.
+The generator assigns labels from the verified final B-rep geometry. Generation metadata and rejection reasons are retained in the manifest. The generated STEP file is the native B-rep source used for every derivative. Point samples and rendered views can be exported by enabling their corresponding flags; UV-Net graph preprocessing follows the upstream UV-Net project linked below.
 
 ## Split construction
 
