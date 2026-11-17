@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+outputs/
+data/
+*.pt
+*.pth
+*.bin
+*.step
+*.stp
+*.npy
+*.png

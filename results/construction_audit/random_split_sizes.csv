@@ -1,0 +1,4 @@
+﻿protocol,split,samples
+random,split_manifest,5000
+random,train_manifest,4500
+random,val_manifest,500

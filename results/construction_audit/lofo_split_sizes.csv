@@ -1,0 +1,13 @@
+﻿family,fold_index,train,validation,test
+dome_cover,0,4114,457,429
+double_shell_block,1,4150,461,389
+l_bracket,2,4145,460,395
+labyrinth_block,3,4132,458,410
+partition_housing,4,4128,458,414
+ribbed_housing,5,4095,455,450
+sealed_box,6,4139,460,401
+sealed_nozzle,7,4099,453,448
+solid_block,8,4131,457,412
+solid_disc,9,4119,457,424
+stepped_prism,10,4127,455,418
+thin_plate,11,4132,458,410

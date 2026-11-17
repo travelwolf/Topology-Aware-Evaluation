@@ -1,0 +1,12 @@
+name: topology-aware-evaluation
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.13
+  - pythonocc-core=7.5.1
+  - occt=7.5.1
+  - numpy=1.26.4
+  - pillow=12.2.0
+  - trimesh=4.11.4
+  - scikit-learn=1.7.2
+  - pip

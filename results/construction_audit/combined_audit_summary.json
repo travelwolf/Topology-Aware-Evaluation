@@ -1,0 +1,26 @@
+{
+  "completed_families": 12,
+  "accepted_label_audit": {
+    "sampled_models": 430,
+    "checked_holes": 1785,
+    "false_acceptance_models": 0,
+    "false_acceptance_holes": 0,
+    "model_false_acceptance_rate": 0.0,
+    "hole_false_acceptance_rate": 0.0
+  },
+  "candidate_replay_audit": {
+    "audit_models": 430,
+    "geometry_candidates": 7548,
+    "accepted_candidates": 1566,
+    "rejected_candidates": 5982,
+    "false_acceptances": 1,
+    "false_rejections": 1,
+    "underfilled_models": 68,
+    "placement_sampling_exhausted": 0,
+    "candidate_rejection_rate": 0.7925278219395866,
+    "false_acceptance_rate": 0.0006385696040868455,
+    "false_rejection_rate": 0.00016716817118020728
+  },
+  "dense_axis_samples": 2048,
+  "classifier_tolerance": 1e-07
+}

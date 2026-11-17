@@ -1,0 +1,8 @@
+# Tested training/evaluation versions. Install CUDA-compatible builds from the
+# official PyTorch and DGL package indexes for the target platform.
+torch==2.3.0
+dgl==2.5.0
+numpy==1.26.4
+Pillow==12.2.0
+trimesh==4.11.4
+scikit-learn==1.7.2
