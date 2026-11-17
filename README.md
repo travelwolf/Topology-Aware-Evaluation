@@ -105,8 +105,12 @@ Evaluate the released simple baselines with:
 python baselines/evaluate_simple_baselines.py \
   --split-root metadata/splits \
   --data-root data/hole_counting_5000 \
-  --output-dir outputs/baselines
+  --output-dir outputs/baselines \
+  --linear-epochs 4000 \
+  --seed 20260630
 ```
+
+For each LOFO fold, pass that fold's train/validation directory as `--split-root` and use `--linear-epochs 3000`, matching the reported protocol.
 
 ## Compared neural encoders
 
